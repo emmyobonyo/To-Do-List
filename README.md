@@ -1,18 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TO DO APP
 
-> One paragraph statement about the project.
+> A Simple App tp help organise daily tasks.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./to-to-app.png)
 
-Additional description about the project and its features.
+- A User can Add a task to be completed.
+- A User can Mark a task as completed.
+- A User can Drag a task to rearrange the order in which the tasks are displayed.
+- A user can Clear all the tasks that have been completed already.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript, HTML and CSS
+- Webpack 
 
 ## Live Demo
 

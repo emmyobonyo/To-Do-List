@@ -20,8 +20,13 @@ const tasks = [
 const listFunction = () => {
   for ( let i = 0; i < tasks.length; i++ ) {
     const list = document.createElement('li');
-    list.innerHTML = `${tasks[i].index} ${tasks[i].description} ${tasks[i].completed}`
+    const checkbox = document.createElement('input');
+    const p = document.createElement('p')
+    const check = checkbox.setAttribute('type', 'checkbox');
+    p.innerHTML =`${tasks[i].index} ${tasks[i].description} ${tasks[i].completed}`
     listItems.appendChild(list)
+    list.appendChild(checkbox)
+    list.appendChild(p)
   }
 }
 
