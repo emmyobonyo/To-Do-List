@@ -30,4 +30,4 @@ const listFunction = () => {
   }
 };
 
-export { listFunction };
+export { listFunction as default };

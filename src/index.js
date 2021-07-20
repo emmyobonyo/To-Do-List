@@ -1,6 +1,6 @@
 // import _ from 'lodash';
 import './style.css';
-import {listFunction} from './displayList.js';
+import listFunction from './displayList.js';
 
 listFunction();
 
