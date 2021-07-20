@@ -1,6 +1,6 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import './style.css';
-import {listFunction} from './displayList';
+import {listFunction} from './displayList.js';
 
 listFunction();
 
@@ -17,4 +17,3 @@ function component() {
 }
 
 document.body.appendChild(component());
-
