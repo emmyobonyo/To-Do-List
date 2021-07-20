@@ -15,64 +15,31 @@
 
 - Javascript, HTML and CSS
 - Webpack 
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
+- Navigate to the local directory where you'd like your project to be stored.
+- Type this command on your terminal ```git clone https://github.com/emmyobonyo/To-Do-List.git```
+- Navigate to the cloned repo and start working.
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+- An internet connection, I guess.
 ## Authors
 
-👤 **Author1**
+👤 **Emmanuel Obonyo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@emmyobonyo](https://github.com/emmyobonyo)
+- Twitter: [@emmyobonyo](https://twitter.com/emmyobonyo)
+- LinkedIn: [Emmanuel Obonyo](https://www.linkedin.com/in/emmanuel-obonyo-3728a2200/)
 ## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
+Incase you sight some issues, which obviously are there, kindly create an issue and I'll look at it.
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+- Thanks to Webpack for bundling this massive project.
+- Thanks to [Microverse](https://microverse.org) for the linters and ReadMe template
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
