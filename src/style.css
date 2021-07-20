@@ -1,5 +1,5 @@
 body {
-  background-color:white;
+  background-color: white;
   width: 80%;
   margin: auto;
   margin-top: 20px !important;
@@ -19,7 +19,7 @@ ul {
 
 li {
   border-bottom: 1px solid black;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 p {
@@ -32,4 +32,3 @@ button {
   background-color: blanchedalmond;
   color: grey;
 }
-
