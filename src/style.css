@@ -1,6 +1,6 @@
 body {
-  background-color: white;
-  width: 80%;
+  background-color:white;
+  width: 70%;
   margin: auto;
   margin-top: 20px !important;
   border: 1px solid black;
@@ -21,7 +21,7 @@ li {
   border-bottom: 1px solid black;
   padding: 10px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -38,4 +38,10 @@ button {
   padding: 10px;
   background-color: blanchedalmond;
   color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 50%;
+  }
 }

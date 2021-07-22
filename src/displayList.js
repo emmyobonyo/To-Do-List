@@ -23,6 +23,7 @@ const storedTasks = JSON.parse(localStorage.getItem("tasks"));
 
 const listFunction = (e) => {
   for (let i = 0; i < storedTasks.length; i += 1) {
+    const div = document.createElement('div');
     const list = document.createElement('li');
     list.setAttribute('draggable', 'true');
     const icon = document.createElement('i')
@@ -51,8 +52,9 @@ const listFunction = (e) => {
     };
     p.innerHTML = `${storedTasks[i].index} ${storedTasks[i].description} ${storedTasks[i].completed}`;
     listItems.appendChild(list);
-    list.appendChild(checkbox);
-    list.appendChild(p);
+    list.appendChild(div);
+    div.appendChild(checkbox)
+    div.appendChild(p);
     list.appendChild(icon);
   }
 };
