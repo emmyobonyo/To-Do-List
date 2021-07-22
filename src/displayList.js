@@ -1,5 +1,4 @@
 const listItems = document.getElementById('listItems');
-const checkbox = document.getElementsByClassName('checkbox');
 
 const tasks = [
   {
@@ -25,6 +24,9 @@ const storedTasks = JSON.parse(localStorage.getItem("tasks"));
 const listFunction = (e) => {
   for (let i = 0; i < storedTasks.length; i += 1) {
     const list = document.createElement('li');
+    list.setAttribute('draggable', 'true');
+    const icon = document.createElement('i')
+    icon.className = 'fa fa-bars';
     const p = document.createElement('p');
     p.className = 'paragraph'
     p.id = `paragraph-${i}`
@@ -51,15 +53,8 @@ const listFunction = (e) => {
     listItems.appendChild(list);
     list.appendChild(checkbox);
     list.appendChild(p);
+    list.appendChild(icon);
   }
 };
-
-// const checkbox = document.getElementsByClassName('checkbox');
-// console.log(checkbox);
-// const p = document.querySelector('p');
-// const checked = () => {
-//   p.style.textDecoration = checkbox.checked ? 'line-through' : 'none';
-// }
-// checkbox.addEventListener('change', checked);
 
 export { listFunction as default };
