@@ -1,15 +1,23 @@
 body {
-  background-color: white;
-  width: 80%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: skyblue;
+  width: 70%;
   margin: auto;
-  margin-top: 20px !important;
-  border: 1px solid black;
   padding: 0 10px;
-  box-shadow: 5px 10px;
 }
 
-div {
-  border-bottom: 1px solid black;
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 0 15px;
+}
+
+#wrapper {
+  background-color:white;
+  margin-top: 70px;
+  border: 2px solid black;
 }
 
 ul {
@@ -19,10 +27,10 @@ ul {
 
 li {
   border-bottom: 1px solid black;
-  padding: 10px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 5px;
 }
 
 i:active, i:hover{
@@ -36,6 +44,15 @@ p {
 button {
   width: 100%;
   padding: 10px;
-  background-color: blanchedalmond;
-  color: grey;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-top: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 50%;
+  }
 }
