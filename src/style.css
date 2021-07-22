@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: skyblue;
@@ -11,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid black;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 
 #wrapper {
@@ -30,7 +36,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5px;
+  padding: 10px 5px;
 }
 
 i:active, i:hover{
@@ -39,6 +45,7 @@ i:active, i:hover{
 
 p {
   display: inline-block;
+  margin-left: 10px;
 }
 
 button {
